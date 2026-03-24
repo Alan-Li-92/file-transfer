@@ -33,6 +33,24 @@
 - 支持 Docker 部署
 - 支持放在 `nginx`、Caddy、Traefik 等反向代理后面运行
 
+## Screenshots
+
+### 首页
+
+![首页截图](docs/images/Home.png)
+
+### 电脑和电脑互传
+
+![电脑互传截图](docs/images/PC_To_PC.png)
+
+### 电脑和手机互传
+
+![电脑和手机互传截图](docs/images/PC_To_Mobile.png)
+
+### 跨设备剪贴板
+
+![跨设备剪贴板截图](docs/images/clipboard.png)
+
 ## 运行要求
 
 - Node.js 18 或更高版本
