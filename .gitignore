@@ -1,0 +1,7 @@
+node_modules
+storage/uploads/*
+!storage/uploads/.gitkeep
+storage/chunks/*
+!storage/chunks/.gitkeep
+file-transfer-latest.tar
+file-transfer-latest.tar.gz

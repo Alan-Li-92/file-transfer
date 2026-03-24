@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="__BASE_PATH__/" />
+    <title>File Transfer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">Local Network Transfer</p>
+        <h1>无间传</h1>
+        <p class="hero-copy">
+          打开此站点，即可文件互传，也可单独使用跨设备剪贴板，实现电脑与手机间无缝复制粘贴。
+        </p>
+      </header>
+      <main id="app"></main>
+    </div>
+    <script>
+      window.APP_CONFIG = {
+        basePath: "__BASE_PATH__",
+        origin: "__APP_ORIGIN__"
+      };
+    </script>
+    <script src="app.js" defer></script>
+  </body>
+</html>

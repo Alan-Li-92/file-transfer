@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+storage/uploads
+storage/chunks
+.git
+.gitignore
+nginx
+*.service
+install-*.sh
+uninstall-*.sh

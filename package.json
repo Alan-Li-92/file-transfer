@@ -1,0 +1,13 @@
+{
+  "name": "file-transfer",
+  "version": "1.0.0",
+  "description": "LAN file transfer between phone and desktop with QR codes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
